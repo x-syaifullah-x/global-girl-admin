@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "launch in chrome web render html",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "run",
+                "-d",
+                "chrome",
+                "--web-renderer",
+                "html",
+                "--web-port=12345"
+            ]
+        },
+        {
+            "name": "simpleworld_admin (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "simpleworld_admin (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
